@@ -1,0 +1,16 @@
+﻿1 - Cria o banco
+2 - Aponta o banco pro web.config
+3 - Faz a alteração do Models/IdentityModels.cs
+
+----------
+Update via migrations:
+
+Tools –> Library Package Manager –> Package Manager Console
+
+0) Package Manager Console
+1) Run the Install-Package EntityFramework command
+2) Enable-Migrations
+3) Add-Migration init
+4) Update-Database
+
+=> http://msdn.microsoft.com/en-us/data/jj591621
