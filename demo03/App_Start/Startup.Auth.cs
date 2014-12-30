@@ -47,8 +47,8 @@ namespace demo03
             //   consumerSecret: "");
 
             app.UseFacebookAuthentication(  
-               appId: "907586265923013",
-               appSecret: "ce7f3859dd8fd4a2c3d15fa1c19bdb6b");
+               appId: "907583765923013",
+               appSecret: "ce7f3859dd8fd45432c3d15fa1c19bdb6b");
 
             //app.UseGoogleAuthentication(new GoogleOAuth2AuthenticationOptions()
             //{
